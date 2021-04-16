@@ -9,5 +9,5 @@ class NetworkByteSwap extends Expr {
   }
 }
 
-from NetworkByteSwap n
-select n, "Network byte swap"
+from NetworkByteSwap net
+select net, "Network byte swap"
